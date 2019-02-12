@@ -1,0 +1,166 @@
+.demo-message-container {
+  border: 1px solid #e8e8e8;
+  margin-left: 5%;
+  width: 75%;
+  position:relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position:relative;
+}
+
+button {
+  border:none;
+  background-color:#fff;	
+}
+
+.demo-message-container .sendMessage-wrapper {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height:7%;
+  z-index:100;
+}
+
+.notifyMessage {
+  width:500px;
+  border:none;
+  border:1px solid #e8e8e8;
+  height:32px;
+  margin-left:5px;
+  border-radius:5px;
+  padding:5px;
+}
+
+.mb20 {
+	margin-bottom:20px;
+}
+
+.demo-message-container .sendMessage-wrapper input {
+	width:90%;
+	height:100%;
+	border-radius:4px;
+}
+
+.demo-message-container .sendMessage-wrapper button{
+	border:none;
+	width:10%;
+	height:100%;
+	background-color:rgba(113,113,113,1);
+	font-weight:700;
+}
+
+.demo-infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 8px 24px;
+  height: 430px;
+  width: 20%;
+}
+
+.demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 20%;
+  text-align: center;
+}
+
+/* 列表样式 */
+.demo-message-container ul li {
+  list-style: none;
+  margin:20px;
+  posotion:relative;
+}
+
+.demo-message-container ul {
+	display:inline-block;
+}
+
+.demo-message-container ul .flex .photo {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	background-color: #EE3B3B;
+	text-aline:center;
+	font-size:15px;
+	border-radius:5px;
+	color:#fff;
+}
+
+.demo-message-container ul .flex .message::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color:  transparent  #EE3B3B transparent transparent;
+	border-width: 10px;
+	left: -20px;
+	top: 15px;
+}
+
+.demo-message-container ul .flex .message {
+	display: flex;
+	align-items: center;		
+	background-color: #EE3B3B;
+	width: 500px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 5px 5px 10px;
+	margin-left: 16px;
+	color: #111;
+	font-weight: bold;
+	position: relative;
+	align-items: center;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.demo-message-container ul .flex-row-re .photo {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	background-color: #228B22;
+	text-aline:center;
+	font-size:15px;
+	border-radius:5px;
+	color:#fff;
+}
+
+.demo-message-container ul .flex-row-re .message::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color:  transparent  transparent transparent #228B22;
+	border-width: 10px;
+	right: -20px;
+	top: 15px;
+}
+
+.demo-message-container ul .flex-row-re .message {
+	display: flex;
+	align-items: center;		
+	background-color: #228B22;
+	text-align:right;
+	flex-direction: row-reverse;
+	margin-right:10px;
+	width: 500px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 5px 5px 10px;
+	margin-left: 16px;
+	color: #111;
+	font-weight: bold;
+	position: relative;
+	align-items: center;
+	word-wrap: break-word;
+	word-break: break-all;
+}

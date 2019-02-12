@@ -1,0 +1,23 @@
+
+.indexIns {
+	display: flex;
+	background-color: #fff;
+	padding: 3vw 2vw 1vw 5vw;
+	font-size: .9rem;
+	font-weight: 700;
+}
+
+.iconRedDot {
+	display: block;
+	width: 3px;
+	height: 13px;
+	background-color: red;
+	margin-right: 3px;
+}
+
+.Index-flex-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

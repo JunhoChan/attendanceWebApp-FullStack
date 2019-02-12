@@ -1,0 +1,12 @@
+.pagination-container {
+  margin: 0 15px;
+}
+
+.custom-pagination-with-icon .am-pagination-wrap-btn-prev .am-button-inline{
+  padding-left: 0;
+  padding-right: 10px;
+}
+.custom-pagination-with-icon .am-pagination-wrap-btn-next .am-button-inline{
+  padding-left: 10px;
+  padding-right: 0;
+}

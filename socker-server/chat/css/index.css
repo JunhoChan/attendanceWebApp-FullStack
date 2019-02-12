@@ -1,0 +1,112 @@
+.container {
+	width: 500px;
+	height: 550px;
+}
+
+.wrapper {
+	width: 70%;
+	height: 92%;
+	border:1px solid #999;
+}
+
+.header-content {
+	width: 100%;
+	height: 8%;
+	background-color: black;
+	color:#fff;
+}
+
+/*     */
+.message-content{
+	display: inline-block;
+	width: 100%;
+	height: 85%;
+	overflow: hidden;
+}
+
+.message-container {
+	width: 100%;
+	height: 99%;
+	overflow-y: scroll;
+    overflow-x: hidden;	
+}
+
+
+
+
+ /* for Chrome */
+.message-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.message-content ul li{
+	width: 88%;
+}
+
+
+.avator {
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	background-image: url('./../images/timg.jpg');
+	background-repeat: no-repeat;
+	background-position: 29% 28%;
+}
+
+.message:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color:  transparent  #32cd3e transparent transparent;
+	border-width: 10px;
+	left: -7%;
+	top: 8%;
+}
+
+.message {
+	display: flex;
+	align-items: center;		
+	background-color: #32cd3e;
+	width: 80%;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 5px 5px 10px;
+	margin-left: 16px;
+	position: relative;
+	align-items: center;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+
+
+.li-item {
+	display: flex;
+	padding: 15px 20px 0px 20px;
+}
+
+
+
+.send-content {
+	border-top: 1px solid #999;
+	height: 7%;
+	width: 100%;
+	background-color: #ebe9f1;
+	color:#fff;
+}
+.send-content input{
+	width: 80%;
+	height: 80%;
+}
+.send-content button {
+	border: none;
+	height: 80%;
+	width: 18%;
+	background-color: #4921de;
+	color:#fff;
+	border-radius: 5px;
+}

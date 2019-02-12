@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>测试案例</title>
+<link rel="stylesheet" type="text/css" href="./css/default.css">
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body class="flex flex-center">
+    <section class="flex flex-center container mt50 flex-column">
+    	    <h1>测试socker消息推送</h1>
+    	    <div class="wrapper">
+    	    	<div class="header-content tac flex flex-center fb">
+    	    		系统消息
+    	    	</div>
+    	    	<div class="message-content" id="scroll">
+    	    		<ul class="message-container" id="ul">
+    	    		</ul>
+				</div>
+    	   		<div class="send-content flex flex-bt flex-center">
+    	   			<input  type="text" name="data">
+    	   			<button class="fb" id="send">发送</button>
+    	   		</div>
+    	    </div>
+    </section>
+</body>
+<script type="text/javascript" src="./js/socket.io.js"></script>
+<script type="text/javascript">
+	(function(){ // data initailly put relavant the instance
+		let socket = io('ws://localhost:8088'),
+		   sendBtn = document.getElementById("send"),
+		       oUl = document.getElementById("ul"),
+		      oData = document.getElementsByName('data')[0]
+		const params = {userId: 1000000001,username:'123456'}
+		console.log(123)
+        socket.emit('bindUserId',params);
+	    // receivev Message
+	    socket.on('receiveMessage',function(data){
+	      	console.log(data)
+	    })
+
+
+	})()
+</script>
+</html>

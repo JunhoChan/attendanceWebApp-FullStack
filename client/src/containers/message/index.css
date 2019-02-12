@@ -1,0 +1,126 @@
+.messageWrapper ul li {
+	list-style: none;
+	margin-top: 10px;
+	padding-right: 12vw;
+}
+
+.flex-start {
+	display: flex;
+	position: relative;
+}
+
+.flex-start .message::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color:  transparent  #EE3B3B transparent transparent;
+	border-width: 10px;
+	left: -20px;
+	top: 15px;
+}
+
+.flex-start .message {
+	display: flex;
+	align-items: center;		
+	background-color: #EE3B3B;
+	width: 80%;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 5px 5px 10px;
+	margin-left: 16px;
+	color: #fff;
+	font-weight: bold;
+	position: relative;
+	align-items: center;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.flex-end {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+
+.flex-end .message::before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color:  transparent  transparent  transparent #228B22;
+	border-width: 10px;
+	right: -20px;
+	top: 15px;
+}
+
+.flex-end .message {
+	margin-right: 10px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;		
+	background-color: #228B22;
+	width: 80%;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 10px 5px 5px;
+	margin-left: 16px;
+	text-align: right;
+	color: #fff;
+	font-weight: bold;
+	position: relative;
+	align-items: center;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+
+
+
+.photo {
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 1rem;
+	line-height: 50px;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.systemMessage {
+	background-color: #EE3B3B;
+}
+
+.userMessage {
+	background-color: #228B22;
+}
+
+.footerSendMessageWrapper {
+	position: fixed;
+	display: flex;	
+	bottom:7.5vh;
+	height: 6vh;
+	width: 100vw;
+}
+
+.footerSendMessageWrapper .sendMessage {
+	width: 80%;
+	height: 100%;
+	border-radius: .8rem;
+}
+
+.footerSendMessageWrapper button {
+	width: 20%;
+	height: 100%;
+	font-size: 1.5rem;
+	border:none;
+	background-color: grey;
+	color:#fff;
+	font-weight: 500;
+	border-radius: 5px;
+}

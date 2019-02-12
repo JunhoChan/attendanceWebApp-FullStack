@@ -1,0 +1,41 @@
+.register {
+	width: 100vw;
+	height: 100vw;
+	position: relative;
+}
+.pt30 {
+	padding-top: 33vh;
+}
+
+.p3w {
+	padding: 3vw;
+}
+
+.reg-bottom {
+	position: fixed;
+	bottom: 0;
+	font-size: 1rem;
+	color: #999;
+}
+
+.fb {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.left {
+	position: fixed;
+	bottom: 2rem;
+	font-size: .9rem;
+	padding-left: 1rem;
+}
+
+.right {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.3rem;
+	border:1px solid #999;
+	padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+	border-radius: .5rem;
+}
