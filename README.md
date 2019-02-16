@@ -1,8 +1,8 @@
 ﻿这是一款定位考勤全栈WebApp 以react，Node(egg),技术栈开发而成，有些功能暂时目前没有以图片的形式展现很抱歉！
  
  客户端
- ![image](https://github.com/JunhoChan/attendanceWebApp-FullStack/blob/master/material/login.gif?strip%7CimageView2/2/w/300)
- ![image](https://github.com/JunhoChan/attendanceWebApp-FullStack/blob/master/material/work.gif?strip%7CimageView2/2/w/300)
+ ![image](https://github.com/JunhoChan/attendanceWebApp-FullStack/blob/master/material/login.gif?strip%7CimageView2/2/w/300)  
+ ![image](https://github.com/JunhoChan/attendanceWebApp-FullStack/blob/master/material/work.gif?strip%7CimageView2/2/w/300)  
  登录等相关业务
  
  客户端管理系统
