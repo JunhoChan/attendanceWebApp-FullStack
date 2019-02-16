@@ -20,7 +20,7 @@
   
    
 ![image]( https://github.com/JunhoChan/attendanceWebApp-FullStack/blob/master/material/chat.gif?strip%7CimageView2/2/w/300)  
-管理员对用户发送指令
+管理员对用户发送指令 如果点击上面系统发的文字会返回一段语音
  
 
 另外过程中会用到数据库，如果有需要的话可以联系我(857252831@qq.com)届时我会及时处理.
